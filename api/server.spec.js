@@ -7,7 +7,7 @@ it("should set db environment to testing", function() {
 });
 
 describe("server", function() {
-  describe("get/", function() {
+  describe("GET/", function() {
     it("should return 200 OK", function() {
       // run the server
       // make a GET request to /
@@ -15,7 +15,7 @@ describe("server", function() {
       return request(server)
         .get("/")
         .then(res => {
-          expect(res.status).toBe(404);
+          expect(res.status).toBe(200);
         });
     });
 
@@ -38,6 +38,6 @@ describe("server", function() {
   });
 });
 
-test ('should set testin envirorment', () => {
-    expect(process.env.DB_ENV).toBe('testing')
-})
+// test ('should set testin envirorment', () => {
+//     expect(process.env.DB_ENV).toBe('testing')
+// })

@@ -4,8 +4,8 @@ const jwt = require("jsonwebtoken");
 
 // const { add, findBy } = require("./auth-model.js")
 
-const Users = require("./auth-model");
-const { validateUser } = require("./auth-model");
+const Users = require("../users/users-model.js");
+const { validateUser } = require("../users/users-helper.js");
 
 router.post('/register', (req, res) => {
   // implement registration
