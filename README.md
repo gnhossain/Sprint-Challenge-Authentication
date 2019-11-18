@@ -48,7 +48,7 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 - [ ] What does bcrypt do to slow down attackers?
 
-** It uses an random long algorithm that hashes passwords as many times we request to slow down the attackers.
+** It uses a random long algorithm that hashes passwords as many times we request to slow down the attackers.
 
 - [ ] What are the three parts of the JSON Web Token?
 
